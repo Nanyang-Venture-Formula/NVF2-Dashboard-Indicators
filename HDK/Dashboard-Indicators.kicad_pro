@@ -128,7 +128,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -173,9 +173,8 @@
       ],
       "track_widths": [
         0.0,
-        0.3,
-        0.4,
-        0.6
+        0.6,
+        1.27
       ],
       "via_dimensions": [
         {
@@ -452,7 +451,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Production/Dashboard-Indicators.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -482,7 +481,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../Renders/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -493,96 +492,32 @@
   },
   "sheets": [
     [
-      "b124b432-ac78-4798-b0b4-eadac440f71a",
+      "ab87795f-212a-4832-bcf0-a455070f47aa",
       ""
     ],
     [
-      "0e29e77b-e9d4-411e-a338-94e3393785f0",
-      "Indicator-TSAC"
+      "f99952b1-9488-4f1f-9978-dfc2fff7ae7a",
+      "TS OFF Indicator"
     ],
     [
-      "ae1859ba-4bf6-4632-b532-0dc5c130dd74",
-      "Indicator-IMD"
+      "bc639754-0923-4097-891d-1b8a41b58fa5",
+      "AMS FAULT Indicator"
     ],
     [
-      "4c880b25-5e08-4ca8-9e92-1906794ff55e",
-      "Indicator-AMS"
+      "4ca1c590-8959-4469-b4e1-9370a6e2269a",
+      "IMD FAULT Indicator"
     ],
     [
-      "2df1aa26-1dd8-4a22-88b3-8fa847ba5cc8",
-      "Indicator-R2D_ON"
+      "d7eb3111-1148-471f-8595-c5d4dae74064",
+      "Overtemp Indicator"
     ],
     [
-      "58649145-ae9c-4e5e-bad4-9b44247c9f4b",
-      "Indicator-R2D_OFF"
+      "95c0f9cc-5f59-4a8c-b9bf-26ff0787505f",
+      "R2D ON Indicator"
     ],
     [
-      "833fa3cd-8997-4af2-9799-1dc5d367669b",
-      "Indicator-PUMP_ON"
-    ],
-    [
-      "59ed0246-3db7-44e6-921b-4de73d05a7c5",
-      "Indicator-PUMP_AUTO"
-    ],
-    [
-      "8a33226d-bce9-4f71-8c56-b2344d812998",
-      "NOT"
-    ],
-    [
-      "3e352972-5e06-4ee6-b020-27616f11d5d9",
-      "XNOR"
-    ],
-    [
-      "a8c37094-efa7-4e8b-a60d-ee633196c096",
-      "AND"
-    ],
-    [
-      "5bab69b7-f820-438f-93b7-cb9e013bcc49",
-      "SCS_CHK"
-    ],
-    [
-      "d2a58fa5-44e4-464a-be92-948c2e44ec25",
-      "SCS_CHK1"
-    ],
-    [
-      "a8c37094-efa7-4e8b-a60d-ee633196c096",
-      "AND"
-    ],
-    [
-      "8a33226d-bce9-4f71-8c56-b2344d812998",
-      "NOT"
-    ],
-    [
-      "3e352972-5e06-4ee6-b020-27616f11d5d9",
-      "XNOR"
-    ],
-    [
-      "5ab13a1a-02eb-4308-acdb-3c013efc1f13",
-      "SCS_CHK2"
-    ],
-    [
-      "3e352972-5e06-4ee6-b020-27616f11d5d9",
-      "XNOR"
-    ],
-    [
-      "8a33226d-bce9-4f71-8c56-b2344d812998",
-      "NOT"
-    ],
-    [
-      "a8c37094-efa7-4e8b-a60d-ee633196c096",
-      "AND"
-    ],
-    [
-      "e5da3de4-bba8-4f4a-862f-c5d966971d05",
-      "AND1"
-    ],
-    [
-      "11348a47-2d6f-48d8-bb1a-c0819ed8923f",
-      "AND2"
-    ],
-    [
-      "c74b24a2-985c-426f-b422-9f4cff079020",
-      "AND3"
+      "8d0cfcab-ae9c-4053-a337-aa27a7acec7c",
+      "R2D RDY Indicator"
     ]
   ],
   "text_variables": {}
