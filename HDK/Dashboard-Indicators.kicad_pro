@@ -128,7 +128,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -173,17 +173,14 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
         0.6,
-        1.27
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
         },
         {
           "diameter": 0.8,
@@ -451,7 +448,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../Production/Dashboard-Indicators.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -481,7 +478,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../Renders/",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -492,32 +489,8 @@
   },
   "sheets": [
     [
-      "ab87795f-212a-4832-bcf0-a455070f47aa",
+      "aa90dfbd-4875-4992-a339-6694bc99f457",
       ""
-    ],
-    [
-      "f99952b1-9488-4f1f-9978-dfc2fff7ae7a",
-      "TS OFF Indicator"
-    ],
-    [
-      "bc639754-0923-4097-891d-1b8a41b58fa5",
-      "AMS FAULT Indicator"
-    ],
-    [
-      "4ca1c590-8959-4469-b4e1-9370a6e2269a",
-      "IMD FAULT Indicator"
-    ],
-    [
-      "d7eb3111-1148-471f-8595-c5d4dae74064",
-      "Overtemp Indicator"
-    ],
-    [
-      "95c0f9cc-5f59-4a8c-b9bf-26ff0787505f",
-      "R2D ON Indicator"
-    ],
-    [
-      "8d0cfcab-ae9c-4053-a337-aa27a7acec7c",
-      "R2D RDY Indicator"
     ]
   ],
   "text_variables": {}
